@@ -3,3 +3,9 @@ jdk:
   - oraclejdk8
 sudo: false
 script: mvn clean verify
+
+
+
+#Slack Integration
+notifications:
+   slack: relativity-br:LtW29VqKB8M0muNRXGnVXKVX
