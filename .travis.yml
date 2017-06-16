@@ -2,8 +2,10 @@ language: java
 jdk:
   - oraclejdk8
 script:
+  - chmod +x test/run.sh
   - test/run.sh
 
 #Slack Integration
 notifications:
    slack: relativity-br:LtW29VqKB8M0muNRXGnVXKVX
+   email: false
